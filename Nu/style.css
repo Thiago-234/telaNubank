@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.header img{
+    width: 75px;
+    margin-left: 25px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    margin-left: 20px;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+.fundo{
+    background-image: url(homemNu.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 87.5vh;
+}
+.titulo{
+    color: white;
+    margin: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.isabella{
+    background: white;
+    width: 250px;
+    height: 175px;
+    position: absolute;
+    top: 50%;
+    transform: translate(320%);
+    padding: 15px;
+    border-radius: 10px;
+}
+.info{
+    padding: 10px;
+}
+.login{
+    display: flex;
+    margin-left: 500px;
+    color: #b515d5;
+    font-size: 1.125rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login:hover{
+    cursor: pointer;
+}
+.isabella input{
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin: 10px;
+    padding: 5px;
+}
+.isabella input:hover{
+    border-bottom: 1px solid black;
+}
+.btn{
+    text-align: center;
+}
+.btnContinuar{
+    padding: 13px;
+    border-radius: 20px;
+    width: 85%;
+    border: none;
+    text-align: start;
+    margin-top: 10px;
+}
